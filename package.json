@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "name": "robindemo-botkit",
+  "description": "Cisco Spark Robin deom  using BotKit",
+  "version": "0.0.1",
+  "main": "bot.js",
+  "keywords": [
+    "ciscospark",
+    "botkit",
+  ],
+  "author": "Marcello Federico",
+  "license": "MIT",
+  "dependencies": {
+    "botkit": "0.5.6",
+    "botkit-storage-redis": "^1.1.0",
+    "ce_script": "git+https://github.com/marchfederico/ce_script.git",
+    "ciscospark-websocket-events": "^1.2.0",
+    "moment": "^2.18.1",
+    "node-env-file": "0.1.8",
+    "request": "^2.81.0",
+    "robin-js-sdk": "^0.5.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-develop-server": "^0.5.2"
+  }
+}
